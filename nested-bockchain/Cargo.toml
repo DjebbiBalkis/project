@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "relay-chain",
+    "provenance-parachain",
+    "shipment-parachain",
+]
+
+[dependencies]
+xcm = "1.0.0"
+xcm-executor = "1.0.0"

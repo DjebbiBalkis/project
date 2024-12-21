@@ -1,0 +1,10 @@
+[package]
+name = "provenance-parachain"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sp-runtime = { version = "4.0.0" }
+frame-support = { version = "4.0.0" }
+frame-system = { version = "4.0.0" }
+pallet-provenance = { path = "../pallets/provenance" }
